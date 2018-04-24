@@ -1,0 +1,12 @@
+#doctors {
+  
+
+  &-name {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  color: $color-secondary;
+  text-transform: uppercase;
+  }
+}

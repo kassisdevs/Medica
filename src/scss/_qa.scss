@@ -1,0 +1,28 @@
+#qa{
+  background-color: $bg-grey;
+  padding: 4rem 0;
+  &-content {
+    margin: 4rem 0;
+    background: #fff;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+
+  }
+  &-des {
+    margin: 2rem;
+    &-icon {
+      font-size: 6rem;
+      color: $color-violet;
+      margin-right: 2rem;
+    }
+    &-time {
+      font-size: 1.4rem;
+    }
+  }
+  &-collapse {
+    margin: 4rem 0;
+    &-link {
+      color: $color-violet;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+#plans {
+  padding: 4rem 0;
+  &-offer {
+    border: 1px solid $color-blue;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+    &-icon {
+      color: $color-blue;
+      font-size: 4.5rem;
+      border: 1px solid $color-blue;
+      padding: 3.5rem;
+      border-radius: 50%;
+      margin: 2rem;
+      transition: all 0.5s;
+    }
+    &-icon:hover {
+      color: #fff;
+      background: $color-blue;
+    }
+    &-discount {
+      color: #fff;
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      background: $color-blue;
+      border: 1px solid $color-blue;
+      border-radius: 5rem;
+      margin: 2rem;
+      display: inline-block;
+      transition: all 0.5s;
+    }
+    &-discount:hover {
+      color: $color-blue;
+      background: #fff;
+    }
+    &-des {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.4;
+      margin: 2rem;
+    }
+    &-offer {
+      text-decoration: none;
+      color: $color-blue;
+      font-size: 1.4rem;
+      padding: 1rem 2rem;
+      background: #fff;
+      border: 1px solid $color-blue;
+      border-radius: 5rem;
+      margin: 2rem;
+      display: inline-block;
+      transition: all 0.5s;
+    }
+    &-offer:hover {
+      background: $color-blue;
+      color: #fff;
+    }
+  }
+}

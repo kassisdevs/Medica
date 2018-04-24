@@ -1,0 +1,21 @@
+#services {
+  padding: 5rem 3rem;
+  &-content {
+    border: 1px solid $color-grey-light;
+    margin: 1rem;
+  }
+  &-icon {
+    color: $color-violet;
+    font-size: 5rem;
+    margin: 1rem 0;
+  }
+  &-line:after {
+    content: " ";
+    background: $color-violet;
+    width: 5rem;
+    height: 1px;
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 9rem;
+  }
+}

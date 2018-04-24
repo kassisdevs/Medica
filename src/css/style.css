@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #7f98ad;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.overlay-section {
+  background: rgba(0, 0, 0, 0.6); }
+
+.heading-1 {
+  font-size: 3rem;
+  color: #222;
+  line-height: 1.7;
+  font-weight: 600;
+  margin-bottom: 1rem; }
+
+.heading-2 {
+  font-size: 2rem;
+  color: #222;
+  line-height: 1.7;
+  font-weight: 700;
+  margin-bottom: 2rem; }
+
+.heading-3 {
+  font-size: 2rem;
+  font-weight: 400;
+  display: block; }
+
+.heading-4 {
+  font-size: 1.2rem;
+  color: #2f3542;
+  line-height: 1.7;
+  font-weight: 700;
+  margin-bottom: 1rem; }
+
+.heading-6 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #7f98ad;
+  font-size: 1.8rem; }
+
+.paragraph {
+  font-size: 1.2rem;
+  color: #222;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-weight: 600; }
+
+.paragraph-des {
+  font-size: 1.6rem;
+  color: #222;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-weight: 400; }
+
+#navbar-item {
+  color: #7f98ad;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+#navbar-brand {
+  color: #714da0;
+  font-size: 3rem;
+  font-weight: 700; }
+
+#header {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 70rem; }
+  #header-content {
+    margin-top: 25rem;
+    margin-left: 7rem; }
+  #header-btn {
+    color: #fff;
+    font-size: 1.5rem;
+    background: #714da0;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #714da0;
+    transition: all 1s; }
+  #header-btn:hover {
+    color: #714da0;
+    background-color: #fff; }
+
+#offers {
+  padding: 12rem 3rem;
+  background-color: #f7f7f7; }
+  #offers-icon {
+    font-size: 5rem; }
+
+#services {
+  padding: 5rem 3rem; }
+  #services-content {
+    border: 1px solid #f7f7f7;
+    margin: 1rem; }
+  #services-icon {
+    color: #714da0;
+    font-size: 5rem;
+    margin: 1rem 0; }
+  #services-line:after {
+    content: " ";
+    background: #714da0;
+    width: 5rem;
+    height: 1px;
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 9rem; }
+
+#doctors-name {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase; }
+
+#plans {
+  padding: 4rem 0; }
+  #plans-offer {
+    border: 1px solid #03a9f4;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 5px; }
+    #plans-offer-icon {
+      color: #03a9f4;
+      font-size: 4.5rem;
+      border: 1px solid #03a9f4;
+      padding: 3.5rem;
+      border-radius: 50%;
+      margin: 2rem;
+      transition: all 0.5s; }
+    #plans-offer-icon:hover {
+      color: #fff;
+      background: #03a9f4; }
+    #plans-offer-discount {
+      color: #fff;
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      background: #03a9f4;
+      border: 1px solid #03a9f4;
+      border-radius: 5rem;
+      margin: 2rem;
+      display: inline-block;
+      transition: all 0.5s; }
+    #plans-offer-discount:hover {
+      color: #03a9f4;
+      background: #fff; }
+    #plans-offer-des {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.4;
+      margin: 2rem; }
+    #plans-offer-offer {
+      text-decoration: none;
+      color: #03a9f4;
+      font-size: 1.4rem;
+      padding: 1rem 2rem;
+      background: #fff;
+      border: 1px solid #03a9f4;
+      border-radius: 5rem;
+      margin: 2rem;
+      display: inline-block;
+      transition: all 0.5s; }
+    #plans-offer-offer:hover {
+      background: #03a9f4;
+      color: #fff; }
+
+#qa {
+  background-color: #f7f7f7;
+  padding: 4rem 0; }
+  #qa-content {
+    margin: 4rem 0;
+    background: #fff;
+    padding: 2rem 5rem;
+    border-radius: 5px; }
+  #qa-des {
+    margin: 2rem; }
+    #qa-des-icon {
+      font-size: 6rem;
+      color: #714da0;
+      margin-right: 2rem; }
+    #qa-des-time {
+      font-size: 1.4rem; }
+  #qa-collapse {
+    margin: 4rem 0; }
+    #qa-collapse-link {
+      color: #714da0; }
+
+#footer {
+  background: #2d3740;
+  padding: 4rem 2rem; }
+  #footer-des {
+    margin: 2rem 0; }
+    #footer-des-icon {
+      font-size: 4rem;
+      margin-right: 1.2rem; }
+    #footer-des-text {
+      font-size: 1.4rem; }
+  #footer-links {
+    list-style: none; }
+  #footer-blank {
+    color: #7f98ad;
+    font-size: 1.4rem;
+    text-decoration: none; }
+  #footer .btn-sub {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #714da0;
+    border: 1px solid #714da0; }
+  #footer .btn-sub:hover {
+    background-color: transparent; }
+  #footer .btn-input {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem; }
