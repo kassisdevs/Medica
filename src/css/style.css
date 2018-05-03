@@ -64,18 +64,24 @@ body {
   margin-bottom: 1rem;
   font-weight: 400; }
 
-#navbar-item {
-  color: #7f98ad;
-  padding: 0 2rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase; }
-
-#navbar-brand {
-  color: #714da0;
-  font-size: 3rem;
-  font-weight: 700; }
+#navbar {
+  background: #fff; }
+  #navbar-icon {
+    color: #714da0;
+    background: #714da0; }
+  #navbar-item {
+    color: #7f98ad;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase; }
+  #navbar-item:hover {
+    color: #222; }
+  #navbar-brand {
+    color: #714da0;
+    font-size: 3rem;
+    font-weight: 700; }
 
 #header {
   background-image: url(../img/header-bg.jpg);
@@ -122,6 +128,92 @@ body {
     position: absolute;
     left: calc(50% - 25px);
     top: 9rem; }
+
+#doctors-profiles {
+  margin: 5rem 0; }
+
+#doctors .box {
+  margin: 1rem auto;
+  width: 26.5rem;
+  height: 32.7rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3); }
+  #doctors .box .imgBx {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 2; }
+  #doctors .box .imgBx img {
+    transition: 0.5s; }
+  #doctors .box .social-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    margin: 0;
+    padding: 0; }
+    #doctors .box .social-links li {
+      list-style: none; }
+      #doctors .box .social-links li a {
+        position: relative;
+        display: block;
+        width: 3.5rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+        background: #fff;
+        color: #222;
+        margin: 0 .5rem;
+        border-radius: 50%;
+        transition: 0.5s;
+        opacity: 0; }
+  #doctors .box .details {
+    margin: 0 auto;
+    z-index: 4;
+    background: #fff;
+    width: 100%;
+    height: 6rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.5s; }
+    #doctors .box .details h3 {
+      margin: .5rem 0 0; }
+
+#doctors .box:hover .details {
+  transform: translatey(-100%); }
+
+#doctors .box:hover .imgBx {
+  transform: translateY(-1rem); }
+
+#doctors .box:hover .imgBx img {
+  opacity: 0.5; }
+
+#doctors .box:hover .social-links li a {
+  transform: translateY(0);
+  opacity: 1; }
+
+#doctors .box:hover .social-links li a i {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  transition: 0.5s; }
+
+#doctors .box:hover .social-links li a:hover i {
+  transform: rotateY(360deg); }
+
+#doctors .box:hover .social-links li:nth-child(1) a {
+  transition-delay: 0.2s; }
+
+#doctors .box:hover .social-links li:nth-child(2) a {
+  transition-delay: 0.3s; }
+
+#doctors .box:hover .social-links li:nth-child(3) a {
+  transition-delay: 0.4s; }
+
+#doctors .box:hover .social-links li:nth-child(4) a {
+  transition-delay: 0.5s; }
 
 #doctors-name {
   display: block;
@@ -230,3 +322,38 @@ body {
   #footer .btn-input {
     padding: 1.5rem 2rem;
     font-size: 1.4rem; }
+
+@media (max-width: 1024px) {
+  .heading-3 {
+    font-size: 1.8rem; }
+  .paragraph {
+    font-size: 1.1rem; }
+  .heading-6 {
+    font-size: 1.6rem; }
+  #qa-des-icon {
+    font-size: 5rem; } }
+
+@media (max-width: 992px) {
+  #navbar-item {
+    font-size: 1.1rem; }
+  #navbar-brand {
+    font-size: 2rem; }
+  .heading-1 {
+    font-size: 2.4rem; }
+  #offers-icon {
+    font-size: 4rem; }
+  .heading-3 {
+    font-size: 1.6rem; }
+  #services-content {
+    padding-left: 1rem;
+    padding-right: 1rem; } }
+
+@media (max-width: 768px) {
+  #plans-offer {
+    padding: 5rem; } }
+
+@media (max-width: 576px) {
+  #header-btn {
+    font-size: 1.2rem; }
+  #header-content {
+    margin-top: 25rem; } }

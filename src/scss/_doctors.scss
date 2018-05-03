@@ -1,6 +1,114 @@
 #doctors {
-  
+  &-profiles {
+    margin: 5rem 0;
+  }
+  .box {
+    margin: 1rem auto;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    width: 26.5rem;
+    height: 32.7rem;
+   
+    // background: #000;
+    // border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .3);
+    .imgBx {
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      width: 100%;
+      height: 100%;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    .imgBx img {
+      transition: 0.5s;
+    }
+    
+    .social-links {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          position: relative;
+          display: block;
+          width: 3.5rem;
+          height: 3.5rem;
+          line-height: 3.5rem;
+          text-align: center;
+          background: #fff;
+          color: $color-secondary;
+          margin: 0 .5rem;
+          border-radius: 50%;
+          transition: 0.5s;
+          // transform: translateY(6rem);
+          opacity: 0;
+        }
+      }
+    }
+    .details {
+      // position: absolute;
+      // bottom: 0;
+      // left: 0;
+      // transform: translate(-50%, -50%);
+      margin: 0 auto;
+      z-index: 4;
+      background: #fff;
+      width: 100%;
+      height: 6rem;
+      box-sizing: border-box;
+      padding: 1rem;
+      text-align: center;
+      transition: 0.5s;
+      h3 {
+        margin: .5rem 0 0;
+      }
 
+    }
+  }
+  .box:hover .details {
+    transform: translatey(-100%);
+  }
+  .box:hover .imgBx {
+    transform: translateY(-1rem)
+  }
+  .box:hover .imgBx img {
+    opacity: 0.5;
+  }
+  .box:hover .social-links li a {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .box:hover .social-links li a i {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    transition: 0.5s;
+  }
+  .box:hover .social-links li a:hover i {
+   transform: rotateY(360deg)
+  }
+  .box:hover .social-links li:nth-child(1) a {
+    transition-delay: 0.2s;
+  }
+  .box:hover .social-links li:nth-child(2) a {
+    transition-delay: 0.3s;
+  }
+  .box:hover .social-links li:nth-child(3) a {
+    transition-delay: 0.4s;
+  }
+  .box:hover .social-links li:nth-child(4) a {
+    transition-delay: 0.5s;
+  }
   &-name {
   display: block;
   font-size: 1.4rem;

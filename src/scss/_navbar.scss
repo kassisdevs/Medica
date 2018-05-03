@@ -1,4 +1,9 @@
 #navbar {
+  &-icon {
+    color: $color-violet;
+    background: $color-violet;
+  }
+  background: #fff;
   &-item {
     color: $color-primary;
     padding: 0 2rem;
@@ -6,6 +11,9 @@
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
+  }
+  &-item:hover {
+    color: $color-secondary;
   }
   &-brand {
     color: $color-violet;

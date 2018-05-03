@@ -1,0 +1,51 @@
+@media (max-width:1024px) {
+  .heading-3 {
+    font-size: 1.8rem;
+  }
+  .paragraph{
+    font-size: 1.1rem;
+  }
+  .heading-6 {
+    font-size: 1.6rem;
+  }
+  #qa-des-icon {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width:992px) {
+  #navbar-item {
+    font-size: 1.1rem;
+  }
+  #navbar-brand {
+    font-size: 2rem;
+  }
+  .heading-1 {
+    font-size: 2.4rem;
+  }
+  #offers-icon {
+    font-size: 4rem;
+  }
+  .heading-3 {
+    font-size: 1.6rem;
+  }
+  #services-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width:768px) {
+  #plans-offer {
+    padding: 5rem;
+  }
+}
+
+@media (max-width:576px) {
+  #header-btn {
+    font-size: 1.2rem;
+  }
+  #header-content {
+     margin-top: 25rem;
+  }
+}

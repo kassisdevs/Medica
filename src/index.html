@@ -13,29 +13,29 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark py-4 fixed-top">
+<nav class="navbar navbar-expand-md navbar-dark py-4 fixed-top" id="navbar">
   <div class="container">
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-    <span class="navbar-toggler-icon"></span>
+  <button id="navbar-icon" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon" ></span>
   </button>
   <a href="index.html" class="navbar-brand" id="navbar-brand">MediCA</a>
   <div class="collapse navbar-collapse" id="navbarCollapse">
   <ul class="navbar-nav ml-auto">
   
          <li class="nav-item px-1">
-      <a href="#header" class="nav-link text-white" id="navbar-item">HOME</a>
+      <a href="#header" class="nav-link" id="navbar-item">HOME</a>
         </li>
         <li class="nav-item px-1">
-      <a href="#register" class="nav-link text-white" id="navbar-item">ABOUT US</a>
+      <a href="#plans" class="nav-link" id="navbar-item">Plans</a>
         </li>
         <li class="nav-item px-1">
-      <a href="#member" class="nav-link text-white" id="navbar-item">SERVICES</a>
+      <a href="#services" class="nav-link" id="navbar-item">SERVICES</a>
         </li>
         <li class="nav-item px-1">
-      <a href="#groups" class="nav-link text-white" id="navbar-item">DOCTORS</a>
+      <a href="#doctors" class="nav-link" id="navbar-item">DOCTORS</a>
         </li>
         <li class="nav-item px-1">
-      <a href="#stories" class="nav-link text-white" id="navbar-item">CONTACT US</a>
+      <a href="#footer" class="nav-link" id="navbar-item">CONTACT US</a>
         </li>
         <li class="nav-item px-2">
       <a href="#" class="btn px-4"  id="navbar-item">Register</a>
@@ -56,7 +56,9 @@
          <h4 class="heading-4">IT'S AN AMAZING SERVICES</h4>
          <h1 class="heading-1">WELCOME TO MEDICA<BR>SERVICES YOU CAN TRUST</h1>
          <p class="paragraph" class="m-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-         <a href="#" id="header-btn">READ MORE</a>
+         <div class="mt-5">
+          <a href="#" id="header-btn">READ MORE</a>
+         </div>
        </div>
       </div>
     </div>
@@ -162,36 +164,74 @@
           <p class="paragraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div id="doctors-content" class="p-3  m-2">
-             <img class="my-5" src="img/doctor1.jpg" alt="doctor 1">
-             <span id="doctors-name">KEVIN PETERSON</span><br>
-             <span id="doctors-position">DOCTOR</span>
+  </div>
+  <div class="container">
+    <div class="row"  id="doctors-profiles" >
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/doctor1.jpg" alt="doctor 4">
+          </div>
+          <ul class="social-links">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+          </ul>
+          <div class="details">
+            <h3 id="doctors-name">KEVIN PETERSON</h3><span>DOCTOR</span>
+          </div>
+        </div>
+        </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/doctor2.jpg" alt="doctor 4">
+          </div>
+          <ul class="social-links">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+          </ul>
+          <div class="details">
+            <h3 id="doctors-name">COLS HETHER</h3><span>DOCTOR</span>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+          <div class="box">
+            <div class="imgBx">
+              <img src="img/doctor3.jpg" alt="doctor 4">
+            </div>
+            <ul class="social-links">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-google"></i></a></li>
+            </ul>
+            <div class="details">
+              <h3 id="doctors-name">AMANDA HOLT</h3><span>DOCTOR</span>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div id="doctors-content" class="p-3 m-2">
-               <img class="my-5" src="img/doctor2.jpg" alt="doctor 2">
-               <span id="doctors-name">KEVIN PETERSON</span><br>
-               <span id="doctors-position">DOCTOR</span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+            <div class="box">
+              <div class="imgBx">
+                <img src="img/doctor4.jpg" alt="doctor 4">
+              </div>
+              <ul class="social-links">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google"></i></a></li>
+              </ul>
+              <div class="details">
+                <h3 id="doctors-name">JENNIFER AZMIRALDA</h3><span>DOCTOR</span>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div id="doctors-content" class="p-3  m-2">
-                 <img class="my-5" src="img/doctor3.jpg" alt="doctor 3">
-                 <span id="doctors-name">KEVIN PETERSON</span><br>
-                 <span id="doctors-position">DOCTOR</span>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 text-center">
-                  <div id="doctors-content" class="p-3  m-2">
-                   <img class="my-5" src="img/doctor4.jpg" alt="doctor 4">
-                   <span id="doctors-name">KEVIN PETERSON</span><br>
-                   <span id="doctors-position">DOCTOR</span>
-                  </div>
-                </div>
-        </div>
+            </div>
+    </div>
   </div>
 </section>
 <!-- PLANS -->
@@ -208,7 +248,7 @@
         <div id="plans-offer">
           <i id="plans-offer-icon" class="fa fa-user-md"></i>
           <h3 class="heading-3 m-3">Dental Care</h3>
-          <p id="plans-offer-discount">28%</p>
+          <p id="plans-offer-discount">75%</p>
           <p id="plans-offer-des">Lorem ipsum dolor sit amet, in quodsi vulputate maluisset. </p>
           <h3 class="heading-3 m-3">Discount</h3>
           <a id="plans-offer-offer" href="#">Get Offer</a>
@@ -218,7 +258,7 @@
         <div id="plans-offer">
           <i id="plans-offer-icon" class="fa fa-user-md"></i>
           <h3 class="heading-3 m-3">Dental Care</h3>
-          <p id="plans-offer-discount">28%</p>
+          <p id="plans-offer-discount">50%</p>
           <p id="plans-offer-des">Lorem ipsum dolor sit amet, in quodsi vulputate maluisset. </p>
           <h3 class="heading-3 m-3">Discount</h3>
           <a id="plans-offer-offer" href="#">Get Offer</a>
@@ -365,11 +405,11 @@
     </div>
   </div>
 </footer>
-<script src="js/main.js"></script>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/main.js"></script>
 
 </script>
 </body>
